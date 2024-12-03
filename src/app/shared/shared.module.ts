@@ -7,7 +7,6 @@ import { RouterModule } from '@angular/router';
 import { FlexModule } from '@angular/flex-layout';
 import { MaterialModule } from './material.module';
 
-
 @NgModule({
   declarations: [
     FooterComponent,
@@ -23,7 +22,8 @@ import { MaterialModule } from './material.module';
   exports: [
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    MaterialModule
   ]
 })
 export class SharedModule { }
