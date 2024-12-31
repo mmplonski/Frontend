@@ -5,14 +5,19 @@
 }
 
 .content {
+    background-color: #f9f9f9;
     padding: 20px;
 }
 
 header{
-    background-color: #ddd;
+    background-color: #292b31;
     padding: 20px;
+    color: #fff;
 }
 .sidebar {
-    background-color: #bbb;
+    background-color: #292b31;
     padding: 20px;
+    a {
+        color: #fff;
+    }
 }

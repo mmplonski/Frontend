@@ -5,6 +5,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from 'src/app/modules/login/login.component';
+import { MaterialModule } from 'src/app/shared/material.module';
 
 
 
@@ -17,7 +18,8 @@ import { LoginComponent } from 'src/app/modules/login/login.component';
     CommonModule,
     RouterModule,
     FlexLayoutModule,
-    SharedModule
+    SharedModule,
+    MaterialModule
   ]
 })
 export class FullpageModule { }
