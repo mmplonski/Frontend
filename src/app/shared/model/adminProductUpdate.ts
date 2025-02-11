@@ -4,6 +4,7 @@ export interface AdminProductUpdate {
     description: string,
     category: string,
     price: number,
-    currency: string
+    currency: string,
+    image: string
 
 }
