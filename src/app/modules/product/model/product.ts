@@ -2,6 +2,9 @@ export interface Product {
     name: string,
     category: string,
     description: string,
+    fullDescription: string,
     price: number,
-    currency: string
+    currency: string,
+    image: string
+    slug: string
 }
